@@ -62,6 +62,7 @@ def calculate_derivative_at_point(function_str, diff_variable_str, point):
         return f"Ошибка при вычислении производной"
 
 
+
 def on_calculate():
     func_input = function_entry.get()
     var_input = variables_entry.get()
